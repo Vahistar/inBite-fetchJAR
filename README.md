@@ -2,14 +2,14 @@
 
 A minimal Java jar that fetches text from a URL and prints it in the server console.
 
-The URL is baked into the jar at build time, so the jar takes no arguments and reads no config at runtime. It prints the text, clears the console first, and keeps running — which is what makes it usable on Minecraft hosting panels like Pterodactyl, where a process that exits is treated as a stopped server.
+The URL is baked into the jar at build time, so the jar takes no arguments and reads no config at runtime. It prints the text, clears the console first, and keeps running - which is what makes it usable on Minecraft hosting panels like Pterodactyl, where a process that exits is treated as a stopped server.
 
 ## Features
 
 - Prints exactly what the URL returns
 - Clears the console before printing
 - Keeps running after printing, so the server is never flagged as stopped
-- Standalone — no dependencies, no runtime config files
+- Standalone - no dependencies, no runtime config files
 
 ## Build
 
